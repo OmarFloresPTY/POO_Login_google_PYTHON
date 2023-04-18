@@ -86,9 +86,13 @@ class VentanaSecundaria():
     def insert_data(self):
         panama_timezone = pytz.timezone("America/Panama")
         panama_date = datetime.now(panama_timezone)
-        self.user["Nombre"].append(self.texbox_name.get())
-        self.user["Apellido"].append(self.texbox_last_name.get())
-        self.user["Correo"].append(self.texbox_gmail.get())
-        self.user["Contraseña"].append(self.texbox_password.get())
-        self.user["Fecha_Creacion"].append("Panama: "+panama_date.strftime("%d/%m/%Y, %H:%M:%S"))
-        print(self.user)
+        if self.texbox_password.get() == self.texbox_confirm_password.get():
+            self.user["Nombre"].append(self.texbox_name.get())
+            self.user["Apellido"].append(self.texbox_last_name.get())
+            self.user["Correo"].append(self.texbox_gmail.get())
+            self.user["Contraseña"].append(self.texbox_password.get())
+            self.user["Fecha_Creacion"].append("Panama: "+panama_date.strftime("%d/%m/%Y, %H:%M:%S"))
+            print(self.user)
+        else:
+            print("Las contraseñas no coinciden, vuelva a intentarlo")
+        

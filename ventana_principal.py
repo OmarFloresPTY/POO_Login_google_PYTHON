@@ -5,7 +5,7 @@ class VentanaPrincial:
         self.user = user
         self.window = tk.Tk()
         self.window.configure(bg="white")
-        self.window.geometry("400x350")
+        self.window.geometry("400x370")
         self.label_h1 = tk.Label(self.window, text="Google", bg="white", font=("Arial",30,"bold"))
         self.label_h1.pack(fill=tk.X)
         self.frame = tk.Frame(self.window,background="white")
@@ -56,7 +56,7 @@ class VentanaPrincial:
             self.ban = True
             return self.ban
         else:
-            ban = False
+            self.ban = False
             print("No se encuentra en la base de datos.")
             return self.ban
     
