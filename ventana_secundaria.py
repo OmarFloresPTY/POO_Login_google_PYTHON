@@ -9,6 +9,8 @@ class VentanaSecundaria():
         self.user = user
         self.parent = parent
         self.window = tk.Tk()
+        self.window.title("Create your user")
+        self.window.iconbitmap("./ico/google.ico")
         self.window.configure(bg="white")
         self.window.geometry("360x410")
         self.label_h1 = tk.Label(self.window, text="Google",bg="white", font=("Arial",12,"bold"),anchor="w")

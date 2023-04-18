@@ -4,6 +4,8 @@ class VentanaPrincial:
     def __init__(self,user):
         self.user = user
         self.window = tk.Tk()
+        self.window.title("Welcome to Google")
+        self.window.iconbitmap("./ico/google.ico")
         self.window.configure(bg="white")
         self.window.geometry("400x370")
         self.label_h1 = tk.Label(self.window, text="Google", bg="white", font=("Arial",30,"bold"))
