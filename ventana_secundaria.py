@@ -92,6 +92,3 @@ class VentanaSecundaria():
         self.user["Contraseña"].append(self.texbox_password.get())
         self.user["Fecha_Creacion"].append("Panama: "+panama_date.strftime("%d/%m/%Y, %H:%M:%S"))
         print(self.user)
-    
-    def insert_all_data(self):
-        pass
