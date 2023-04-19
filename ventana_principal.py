@@ -65,7 +65,4 @@ class VentanaPrincial:
     def open_window(self):
         self.window.withdraw()
         ventana_secundaria = VentanaSecundaria(self.user,self.window)
-
-
-
     
