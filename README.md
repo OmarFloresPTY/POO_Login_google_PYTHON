@@ -19,20 +19,6 @@ La lógica planteada se estructura en una serie de clases creadas para la constr
 ## Capturas de Pantallas 📷
 A continuación se les presentarán las diferentes salidas que otorga el proyecto al usuario, en el cual se utilizó la librería tkinter para la construcción de la ventana de inicio y la ventana del login.
 
-
-<style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-
-    .center-img {
-        display: block;
-        margin: auto;
-    }
-</style>
-
 <div style="text-align:center;">
     <div class="grid-container">
         <img src="https://i.ibb.co/LZW6qHg/1.png" alt="1" title="Captura del Home de Google" class="center-img" border="0">
