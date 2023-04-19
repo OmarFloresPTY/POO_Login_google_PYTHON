@@ -6,7 +6,7 @@ La lógica planteada se estructura en una serie de clases creadas para la constr
 
 ## Características🧑‍💻
 - Proyecto diseñado en Python 3.11.3.
-- Paradigma de progración orientada a obejtos.
+- Paradigma de progración orientada a objetos.
 - Programado para que funcione a nivel de terminal e interfaz gráfica.
 - Contiene uso de funciones con parámetros, vacías y con retornos de valores.
 - Uso de funciones lambdas.
